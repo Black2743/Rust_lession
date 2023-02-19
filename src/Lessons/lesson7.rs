@@ -1,4 +1,4 @@
-fn lesson7() {
+pub fn lesson7() {
     let mut a = String::from("TEXT");
     lesson7_part2(&mut a); //передача ссылки в функцию(обязательно mut, для того чтобы изменить)
     println!("{}", a);

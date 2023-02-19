@@ -1,4 +1,4 @@
-fn lesson1() {
+pub fn lesson1() {
     let mut age: f64 = 21.23;
     age = 23.12;
     let mut slovo: char = '2';
@@ -8,3 +8,5 @@ fn lesson1() {
     println!("{}", age);
     println!("{}", name);
 }
+
+

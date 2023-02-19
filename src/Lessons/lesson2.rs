@@ -1,5 +1,4 @@
-
-fn lesson2() {
+pub fn lesson2() {
     let mut a: i32 = 31;
     let mut b: i32 = 31;
     if a == b

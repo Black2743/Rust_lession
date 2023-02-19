@@ -1,4 +1,4 @@
-fn lesson6() {
+pub fn lesson6() {
     lesson6_part1(32, 15);
     println!("{}", lesson6_part2(1, 9));
     let a = lesson6_part3(32, 18);

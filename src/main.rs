@@ -1,8 +1,11 @@
-use std::{io, collections::hash_map::RandomState};
+use crate::lesson8::lesson8;
+
+#[path = "Lessons/lesson8.rs"]
+mod lesson8;
+
 
 fn main() {
-    lesson8(67);
-    lesson5();
+    lesson8(32);
 }
 
 

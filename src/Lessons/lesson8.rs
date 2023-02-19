@@ -7,7 +7,7 @@ fn test8(stroka: &str) {
     println!("{}", stroka);
 }
 
-fn lesson8(i: i32) {
+pub fn lesson8(i: i32) {
     let cube = |i: i32| {   //анонимные выражения
         println!("Куб числа {} равен {}", i, i * i * i);
     };

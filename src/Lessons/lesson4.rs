@@ -1,4 +1,4 @@
-fn lesson4() {  //  ARRAY
+pub fn lesson4() {  //  ARRAY
     let arrray = [1, 2, 3, 4, 5, 6];
     let arr = [15; 45];  // заполняяет массив числом 15 45 раз
     println!("{:?}", arrray);  //  :? вывод массива

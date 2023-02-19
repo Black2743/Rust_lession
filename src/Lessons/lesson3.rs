@@ -1,5 +1,5 @@
 
-fn lesson3() {
+pub fn lesson3() {
     let mut name = String::new();
     println!("Set your name");
     match io::stdin().read_line(&mut name) { //обработка ошибки при неверном значении
